@@ -6,10 +6,20 @@ In this repo, you will find all the Python files to do liver segmentation using 
 
 So do this project, you will find some scripts that I wrote by myself and others that I took from Monai's tutorials. For this reason you need to take a look to their original repo and [website](https://monai.io/) to get more information.
 
+## Cloning the repo
+You can start by cloning this repo in your wordspace and then start playing with the function to make your project done.
+```
+git clone https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch
+```
+```
+cd ./Liver-Segmentation-Using-Monai-and-PuTorch
+```
 ## Packages that need to be installed:
 ```
 pip install monai
-pip install requirements.txt
+```
+```
+pip install -r requirements.txt
 ```
 ## Showing a patient from the dataset
 Some of the common questions that I received while using the medical imaging is how to show a patient, for that I wrote a clear scripts about how to show a patient from the training and the testing datasets, that you can find here.
