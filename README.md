@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/issues) [![GitHub stars](https://img.shields.io/github/stars/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/stargazers) [![GitHub license](https://img.shields.io/github/license/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch)](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/torch)
 # Liver Segmentation Using Monai and PyTorch
-In this repo, you will find all the Python files to do liver segmentation using Monai and PyTorch, and you can use the same code for other organs segmentation.
+You'll find all the Python files you need to accomplish liver segmentation with Monai and PyTorch in this repo, and you can use the same code to segment other organs as well.
 
 ![Output image](https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch/blob/main/images/liver_segmentation.PNG)
 
@@ -22,7 +22,7 @@ pip install monai
 pip install -r requirements.txt
 ```
 ## Showing a patient from the dataset
-Some of the common questions that I received while using the medical imaging is how to show a patient, for that I wrote a clear scripts about how to show a patient from the training and the testing datasets, that you can find here.
+Some of the most common queries I had while utilizing medical imaging were regarding how to present a patient. To address this, I created explicit scripts for how to show a patient from the training and testing datasets, which you can see here.
 
 ```Python
 def show_patient(data, SLICE_NUMBER=1, train=True, test=False):
