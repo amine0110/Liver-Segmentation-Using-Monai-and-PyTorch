@@ -70,4 +70,22 @@ def show_patient(data, SLICE_NUMBER=1, train=True, test=False):
 But before calling this function, you need to do the preprocess to your data, in fact this function will help you to visualize your patients after applying the different transforms so that you will know if you need to change some parameters or not.
 The function that does the preprocess can be found in the `preprocess.py` file and in that file you will find the function `prepare()` that you can use for the preprocess.
 
-Before using the code I recommend you to see my course where I explained everything you see in this repo, or at least read my blog posts that I wrote to explain how to use the different scripts so that you won't get confused.
+## Training
+After understanding how to do the preprocess you can start import the `3D Unet` from monai and defining the parameters of the model (dimensions, input channels, output channels...).
+
+```Python
+model = UNet(
+    dimensions=3,
+    in_channels=1,
+    out_channels=2,
+    channels=(16, 32, 64, 128, 256), 
+    strides=(2, 2, 2, 2),
+    num_res_units=2,
+    norm=Norm.BATCH,
+).to(device)
+```
+
+And to run the code, you can use the scripts `train.py` that will call the train function that I have created using the same principal used in Monai's tutorials.
+
+----------------------------------------------------------------------------------------------------------------------------------
+Before using the code, I recommend that you watch my course, in which I explain everything in this repo, or at the very least read my blog entries, in which I explain how to use the various scripts so that you don't get confused.
