@@ -12,7 +12,7 @@ You can start by cloning this repo in your wordspace and then start playing with
 git clone https://github.com/amine0110/Liver-Segmentation-Using-Monai-and-PyTorch
 ```
 ```
-cd ./Liver-Segmentation-Using-Monai-and-PuTorch
+cd ./Liver-Segmentation-Using-Monai-and-PyTorch
 ```
 ## Packages that need to be installed:
 ```
