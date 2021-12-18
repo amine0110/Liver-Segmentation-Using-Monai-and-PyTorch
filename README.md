@@ -87,5 +87,10 @@ model = UNet(
 
 And to run the code, you can use the scripts `train.py` that will call the train function that I have created using the same principal used in Monai's tutorials.
 
+## Testing the model
+To test the model, there is the jupyter notebook `testing.ipynb` file that contains the different codes that you need. You will find the part to plot the training/testing graphs about the loss and the dice coefficient and of course you will find the the part to show the results of one of the test data to see the output of your model.
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------
 Before using the code, I recommend that you watch my course, in which I explain everything in this repo, or at the very least read my blog entries, in which I explain how to use the various scripts so that you don't get confused.
