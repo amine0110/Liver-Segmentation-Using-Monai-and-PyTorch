@@ -97,9 +97,15 @@ Before using the code, I recommend that you watch my course, in which I explain 
 
 You can read about the tutorial in my blog post series starting by [this one.](https://pycad.co/liver-segmentation-part-1/)
 
-## NEW 🆕
+## Conversion tools
 
 For the different preparations that I talked about in the course/blogs I have create a simple GUI that help you to do the conversion in a few clicks, please see more information at [this link](https://pycad.co/pycad-convert/).
 
 ![154864750-c55a3129-67c7-438a-8549-e2c45c433048](https://user-images.githubusercontent.com/37108394/156251291-a0911b63-41b6-4c8a-820b-a9bfec5e452b.png)
+
+## 🆕 NEW (coming soon) 
+
+Full course about medical imaging segmentation is coming soon, join the waitlist here:
+
+https://pycad.co/monai-and-pytoch-for-medical-imaging/
 
