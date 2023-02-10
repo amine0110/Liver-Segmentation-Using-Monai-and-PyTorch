@@ -103,7 +103,7 @@ def train(model, data_in, loss, optim, max_epochs, model_dir, test_interval=1 , 
                     
                     test_outputs = model(test_volume)
                     
-                    test_loss = loss(outputs, test_label)
+                    test_loss = loss(test_outputs, test_label)
                     test_epoch_loss += test_loss.item()
                     test_metric = dice_metric(test_outputs, test_label)
                     epoch_metric_test += test_metric
